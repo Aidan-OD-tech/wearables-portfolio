@@ -5,8 +5,8 @@
 export const LINKS = {
   dashboard: "https://wearables-portfolio-hmgmaecqh2rrjigame7xqj.streamlit.app/",
   github: "https://github.com/Aidan-OD-tech/wearables-portfolio",
-  notebook: "", // link to the .ipynb (e.g. in the GitHub repo)
-  colab: "", // Colab view link
+  notebook: "/ODriscoll_Mid_Term_Project.ipynb", // download, file is in public/
+  colab: "https://colab.research.google.com/drive/1eFKj3Eyc_SLjlJ7hF0gW-NxbfukXkmGz?usp=sharing",
   walkthrough: "/walkthrough.mp4", // my screen recording, in public/
   data: "https://amazon-reviews-2023.github.io/",
 };
