@@ -7,7 +7,7 @@ export const LINKS = {
   github: "https://github.com/Aidan-OD-tech/wearables-portfolio",
   notebook: "", // link to the .ipynb (e.g. in the GitHub repo)
   colab: "", // Colab view link
-  walkthrough: "", // YouTube/Vimeo/Loom link or a /video.mp4 file in public/
+  walkthrough: "/walkthrough.mp4", // my screen recording, in public/
   data: "https://amazon-reviews-2023.github.io/",
 };
 
