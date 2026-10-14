@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Specs or Wearability?
 
-## Getting Started
+**What separates loved wearables from regretted ones**
 
-First, run the development server:
+**Live site:** _coming soon_
+**Course:** DESIGNTK 530, Fall 2026, Midterm project
+**Author:** Aidan O'Driscoll
+
+This is the portfolio page for my midterm project. I compared 1–2★ and 4–5★ Amazon reviews of the same fitness trackers and smartwatches to see whether people judge wearables more by everyday wearability (fit, comfort, materials, battery, reliability) or by technical capability (tracking accuracy, sensors, smart features).
+
+## Intended audience
+
+Industrial designers, wearable product teams and product managers.
+
+## What's on the page
+
+- Project overview and research question
+- Dataset source
+- Selected EDA graphs with descriptions
+- Key findings
+- Proposed A/B test
+- Embedded interactive dashboard
+- Screen-recorded walkthrough
+
+## Data
+
+[Amazon Reviews 2023](https://amazon-reviews-2023.github.io/), McAuley Lab, UC San Diego (Hou et al., 2024). The analysis notebook covers data preparation and its limitations.
+
+## Technical stack
+
+- Next.js 16 (App Router) and React 19, with TypeScript
+- Tailwind CSS 4
+- Git and GitHub, deployed on Vercel
+
+## Run it locally
+
+Requires Node.js 20.9 or newer.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## AI use
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+_To be completed: tools used and what they supported._
