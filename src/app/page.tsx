@@ -70,7 +70,6 @@ export default function Home() {
         <div className="masthead-inner">
           <div className="byline">
             <strong>Aidan O&apos;Driscoll</strong>
-            <span className="mono muted small">Industrial design</span>
           </div>
           <nav aria-label="On this page">
             {NAV.map((n) => (
