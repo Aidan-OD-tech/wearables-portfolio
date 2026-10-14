@@ -1,0 +1,18 @@
+[theme]
+base = "light"
+primaryColor = "#22211F"
+backgroundColor = "#FBFAF8"
+secondaryBackgroundColor = "#F2EFEA"
+textColor = "#22211F"
+borderColor = "#DDD8CF"
+linkColor = "#22211F"
+font = "Instrument Sans:https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap"
+codeFont = "DM Mono:https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap"
+baseRadius = "large"
+showWidgetBorder = true
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
